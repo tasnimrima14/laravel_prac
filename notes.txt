@@ -1,0 +1,48 @@
+laravel is a php frame
+
+step 1:
+install composer from  https://getcomposer.org/download/
+can check from command prompt bt "composer"
+
+step 2: 
+go to C:/xampp/htdocs
+open command prompt
+write "composer create-project laravel/laravel example-app" in the cmd prompt     //this will install nec laravel packages and create a project
+
+step 3:
+open cmd prompt on the example-app folder
+write "php artisan serve"            //this starts the server on the local machine
+
+step 4:
+open the project file in phpstorm
+
+step 5:
+create a controller in the priject file by cmd prompt
+write "php artisan make:contoller DemoController"         //this creates the controller
+we can see the controller 
+
+step 6:
+make a model
+"php artisan make:model post"
+
+step 7: 
+create another controller
+"php artisan make:controller PostController"
+
+step 8: 
+create a database from http://localhost/phpmyadmin/index.php?route=/server/databases
+
+step 9:
+link the database with the phpstorm from .env file 
+by changing the DB attributes
+
+step 10:
+"php artisan make:migration create_posts_table" from cmd prompt
+we will find it in database->migrations->create_posts_table in phpstorm
+
+step 11:
+make nec changes in the table
+
+step 12:
+run cmd line "php artisan migrate"
+this will automatically update the table in phpMyAdmin database
