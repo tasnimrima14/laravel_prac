@@ -2,7 +2,7 @@ laravel is a php frame
 
 step 1:
 install composer from  https://getcomposer.org/download/
-can check from command prompt bt "composer"
+can check from command prompt by "composer"
 
 step 2: 
 go to C:/xampp/htdocs
