@@ -46,3 +46,12 @@ make nec changes in the table
 step 12:
 run cmd line "php artisan migrate"
 this will automatically update the table in phpMyAdmin database
+
+step 13:
+install breeze for login/register authentication
+run "composer require laravel/breeze --dev"
+run "php artisan breeze:install"
+run "php artisan migrate"
+run "npm install"
+run "npm run dev"
+this will activate the login page
